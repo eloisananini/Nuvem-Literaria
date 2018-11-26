@@ -175,6 +175,7 @@ img.imagem {
 
 .botao {
 	margin: 35px auto 20px;
+	margin-bottom: 70px;
 }
 
 .botao1:hover {
@@ -186,4 +187,91 @@ img.imagem {
     transition-timing-function: ease;
     transition-delay: 0s;
     text-decoration: none;
+}
+
+a.coment {
+	font-size: 12px;
+	font-family: quattrocento;
+	letter-spacing: 2px;
+	color: black;
+	float: left;
+}
+
+a.coment:hover {
+	color: #88cbde;
+	text-decoration: none;
+	transition: 3s;
+	transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+i.fa-comments {
+	margin-right: 5px;
+}
+
+.botao2 {
+	background-color: #3b5998;
+	color: white;
+	font-family: Arial;
+	font-size: 11px;
+	border-radius: 2px;
+	padding: 5px;
+	margin-right: 18px;
+	float: right;
+}
+
+a.botao2:hover {
+	color: white;
+	background-color: #334E84;
+	text-decoration: none;
+}
+
+i.icons {
+	color:  #c9a470;
+	font-size: 25px;
+	margin-right: 18px;
+	float: right;
+}
+
+i.icons:hover {
+	color: black;
+	transition: .3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+img.perfil {
+	height: 250px;
+	width: 250px;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+
+.col2 {
+	margin-left: 75px;
+}
+
+p.bio {
+	font-size: 12.5px;
+	font-family: quattrocento;
+	text-align: center;
+	margin-left: 25px;
+	margin-right: 20px;
+	margin-top: 20px;
+	line-height: 180%;
+}
+
+img.banner {
+	width: 285px;
+	height: 221px;
+	margin: 0px;
+	padding: 0px;
 }
