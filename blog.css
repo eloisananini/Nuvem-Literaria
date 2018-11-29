@@ -275,3 +275,20 @@ img.banner {
 	margin: 0px;
 	padding: 0px;
 }
+
+.videos {
+	background-color: #f5fafb;
+	margin: 0px;
+}
+
+img.video {
+	padding: 30px 30px 30px 10px;
+}
+
+img.video2 {
+	padding: 30px 10px 30px 0px;
+}
+
+i.fa-chevron-left {
+	margin-left: 330px;
+}
